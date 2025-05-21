@@ -1,0 +1,92 @@
+@import url('https://fonts.googleapis.com/css2?family=IBM+Plex+Mono:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;1,100;1,200;1,300;1,400;1,500;1,600;1,700&family=Roboto:ital,wght@0,100..900;1,100..900&display=swap');
+
+* {
+  box-sizing: border-box;
+  background-color: antiquewhite;
+  font-family: 'Roboto';
+  font-weight: 700;
+  margin: 0;
+}
+
+.upperheader {
+  display: flex;
+  align-items: center;
+  justify-content: space-around;
+  background-color: #1f2937;
+
+}
+
+.logo {
+  background-color: #1f2937;
+  font-size: 24px;
+  color: #f9faf8;
+  margin-top: 15px;
+}
+ul {
+  display: flex;
+  background-color: #1f2937;
+  list-style-type: none;
+  gap: 28px;
+  margin-top: 15px;
+}
+li {
+  background-color: #1f2937;
+  color: #acb1bb;
+  font-size: 18px;
+  font-weight: 200;
+}
+img {
+  width: 300px;
+  height: 200px;
+}
+#img {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  background-color: #1f2937;
+  padding: 30px;
+  /* margin: 30px; */
+}
+
+.lowerheader {
+  padding: 1px;
+  display: flex;
+  background-color: #1f2937;
+  gap: 18px;
+  height: 300px;
+  justify-content: center;
+
+}
+
+.text {
+  /* display: flex;
+  flex-wrap: wrap; */
+  background-color: #1f2937;
+  padding: 30px;
+  min-width: 360px;
+  max-width: 50%;
+}
+
+h3 {
+  font-size: 48px;
+  font-weight: 900;
+  color: #f9faf8;
+  background-color: #1f2937;
+  line-height:1;
+}
+
+p {
+  font-size: 18px;
+  color: #e5e7eb;
+  background-color: #1f2937;
+}
+
+button {
+  margin-top: 10px;
+  background-color: #3882f6;
+  color: white;
+  width: 90px;
+  height: 25px;
+  border-radius: 50% 20% / 10% 40%;
+  border-color: #3882f6;
+}
