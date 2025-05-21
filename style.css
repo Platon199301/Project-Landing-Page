@@ -2,7 +2,7 @@
 
 * {
   box-sizing: border-box;
-  background-color: antiquewhite;
+
   font-family: 'Roboto';
   font-weight: 700;
   margin: 0;
@@ -13,7 +13,6 @@
   align-items: center;
   justify-content: space-around;
   background-color: #1f2937;
-
 }
 
 .logo {
@@ -55,7 +54,6 @@ img {
   gap: 18px;
   height: 300px;
   justify-content: center;
-
 }
 
 .text {
@@ -72,7 +70,15 @@ h3 {
   font-weight: 900;
   color: #f9faf8;
   background-color: #1f2937;
-  line-height:1;
+  line-height: 1;
+}
+h4 {
+  margin-top: 20px;
+  margin-bottom: 20px;
+  text-align: center;
+  font-size: 36px;
+  font-weight: 900;
+  color: #1f2937;
 }
 
 p {
@@ -89,4 +95,46 @@ button {
   height: 25px;
   border-radius: 50% 20% / 10% 40%;
   border-color: #3882f6;
+}
+
+.corp {
+  display: flex;
+  flex-direction: column;
+  background-color: green;
+}
+
+.fourcubes {
+  text-align: center;
+  background-color: aliceblue;
+}
+
+.cubes {
+  display: flex;
+  gap: 29px;
+  justify-content: center;
+  margin-bottom: 60px;
+}
+.cubeone,
+.cubetwo,
+.cubethree,
+.cubefour {
+  border: 3px solid rgb(66, 157, 246);
+  border-radius: 15px;
+  width: 130px;
+  height: 130px;
+  margin-bottom: 10px;
+}
+span {
+  font-size: small;
+  color: #acb1bb;
+  font-weight: 500;
+}
+.containerone,
+.containertwo,
+.containerthree,
+.containerfour {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  width: 120px;
 }
